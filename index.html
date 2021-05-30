@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Phonebook</title>
+</head>
+<style>
+    body{
+        background-color: rgb(20, 20, 20);
+    }
+
+    h1{
+        font-family: cursive;
+        color: white;
+        text-shadow: 0 0 5px rgb(56, 199, 56);
+    }
+    .phone {
+        color: rgb(20, 233, 20);
+        text-shadow: 0 0 5px rgb(236, 243, 236) ;
+        border: none;
+        outline: none;
+        background: none;
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+    .sms{
+        color: rgb(243, 184, 23);
+        text-shadow: 0 0 5px white;
+        border: none;
+        outline: none;
+        background: none;
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+    .name {
+        font-family: cursive;
+        color: white;
+        text-shadow: 0 0 10px rgb(56, 56, 233);
+        padding: 30px;
+        font-size: 25px;
+    }
+</style>
+
+<body>
+    <center>
+        <h1>Phone Book</h1>
+
+        <table>
+            <tr>
+                <td class="name">
+                    Varun
+                </td>
+                <td>
+                    <button class="phone" onclick="window.location.href ='tel://9315137687'"> <i
+                            class="fa fa-phone"></i> </button>
+                </td>
+                <td>
+                    <button class="sms" onclick="window.location.href ='sms://9315137687'"> <i
+                            class="material-icons">sms</i> </button>
+                </td>
+            </tr>
+            <tr>
+                <td class="name">
+                    Monu
+                </td>
+                <td>
+                    <button class="phone" onclick="window.location.href ='tel://8076143144'"> <i
+                            class="fa fa-phone"></i> </button>
+                </td>
+                <td>
+                    <button class="sms" onclick="window.location.href ='sms://8076143144'"> <i
+                            class="material-icons">sms</i> </button>
+                </td>
+            </tr>
+            <tr>
+                <td class="name">
+                    Mummy
+                </td>
+                <td>
+                    <button class="phone" onclick="window.location.href ='tel://9540775450'"> <i
+                            class="fa fa-phone"></i> </button>
+                </td>
+                <td>
+                    <button class="sms" onclick="window.location.href ='sms://9540775450'"> <i
+                            class="material-icons">sms</i> </button>
+                </td>
+            </tr>
+            <tr>
+                <td class="name">
+                    Noni
+                </td>
+                <td>
+                    <button class="phone" onclick="window.location.href ='tel://9205093074'"> <i
+                            class="fa fa-phone"></i> </button>
+                </td>
+                <td>
+                    <button class="sms" onclick="window.location.href ='sms://9205093074'"> <i
+                            class="material-icons">sms</i> </button>
+                </td>
+            </tr>
+            <tr>
+                <td class="name">
+                    Papa Ji
+                </td>
+                <td>
+                    <button class="phone" onclick="window.location.href ='tel://9871858025'"> <i
+                            class="fa fa-phone"></i> </button>
+                </td>
+                <td>
+                    <button class="sms" onclick="window.location.href ='sms://9871858025'"> <i
+                            class="material-icons">sms</i> </button>
+                </td>
+            </tr>
+        </table>
+    </center>
+</body>
+
+</html>
